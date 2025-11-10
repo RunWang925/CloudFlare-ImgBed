@@ -46,11 +46,33 @@
 
 
 
-## 置顶
+## 修改说明：
 
-1. 部署使用出现问题，请先仔细查阅文档、常见问题解答以及已有issues。
+#### 修改文件及路径
 
-2. **注意**：本仓库为[Telegraph-Image](https://github.com/cf-pages/Telegraph-Image)项目的重制版，如果你觉得本项目不错，在支持本项目的同时，也请支持原项目。
+1. 配置文件：`CloudFlare-ImgBed\functions\api\manage\sysConfig\page.js`
+2. 前端展示文件：`CloudFlare-ImgBed\js\162.8a5db2a3.js`
+
+#### 具体修改内容
+
+###### （一）配置文件 page.js 优化
+
+- 补全网站核心默认配置，包括网站标题、图床名称、默认上传目录、登录 / 上传 / 管理端背景图等关键项
+- 解决问题：修改后刷新网页，不会先显示原始默认标题和图标，直接加载自定义配置，避免展示错乱
+
+###### （二）前端文件 162.8a5db2a3.js 内容更新
+
+- Logo 跳转链接：原 `https://github.com/MarSeventh/CloudFlare-ImgBed` → 改为 `https://github.com/RunWang925/CloudFlare-ImgBed`
+
+- 署名文字：原 "SanyueQi" → 改为 "PeiQi"
+
+- 署名链接：原 `https://github.com/MarSeventh` → 改为 `https://814925.xyz`
+
+- 小飞机图标链接：原 `https://github.com/MarSeventh` → 改为 `https://hexo.814925.xyz`
+
+- 解决问题：修改自定义信息
+
+  
 
 ## 2025.2.6  V2.0 版本升级注意事项
 
